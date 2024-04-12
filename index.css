@@ -51,6 +51,7 @@
 
 .section-menu{
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: auto;
     position: relative;
@@ -66,15 +67,95 @@
     color: white;
     font-family: 'Noto Serif TC',Noto Serof TC;
     position: absolute;
-    left: 50%;
-    top: 10%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: 5%;
 }
 .menu-list{
-    /* font-size: 40px;
-    letter-spacing: 12px;
-    color: white;
-    font-family: 'Noto Serif TC',Noto Serof TC; */
     position: absolute;
     top: 30%;
-    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.menu-card-wrapper{
+    margin-top: -80px;
+    display: flex;
+    gap: 20px;
+}
+.menu-card-wrapper a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu-card-wrapper li{
+    list-style-type: none;
+}
+.menu-card-wrapper img{
+    width: 500px;
+    height: 500px;
+}
+.ramen-card{
+    position: relative;
+    display: inline-block;
+}
+.outer-img{
+    opacity: .92;
+}
+.menu-card-content-wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu-card-content-wrapper img{
+    width: 100%;
+    height: auto;
+}
+.menu-card-content-wrapper{
+    font-size: 24px;
+    letter-spacing: 3.6px;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ramen-card-img-box{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.ramen-card-img-box:hover img{
+    transition: .8s;
+    transform: scale(1.1);
+}
+.ramen-card-img-box img{
+    width: 100%;
+}
+.menu-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.menu-link a{
+    text-decoration: none;
+}
+.menu-link div{
+    font-size: 24px;
+    letter-spacing: 3.6px;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    text-align: center;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+.menu-link a:hover div{
+    color: black;
+    background-color: orange;
 }
