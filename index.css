@@ -1,0 +1,80 @@
+.banner-solgan-wrapper{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.banner-solgan-wrapper img{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.banner-solgan-txt p{
+    font-size: 40px;
+    letter-spacing: 12px;
+    color: white;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.banner-soup-wrapper{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.banner-soup-wrapper img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.banner-soup-txt{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.banner-soup-txt h3{
+    font-size: 40px;
+    letter-spacing: 12px;
+    color: white;
+    font-weight: normal;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    
+}
+.banner-soup-txt p{
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    color: white;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+}
+
+.section-menu{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.section-menu img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.section-menu h2{
+    font-size: 40px;
+    letter-spacing: 12px;
+    color: white;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+}
+.menu-list{
+    /* font-size: 40px;
+    letter-spacing: 12px;
+    color: white;
+    font-family: 'Noto Serif TC',Noto Serof TC; */
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}

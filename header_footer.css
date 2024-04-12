@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    position:fixed;
+    top: 0;
+    z-index: 5;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-list{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 37% 9% 9% 9% 9% 9% 5% 13%;
+    justify-items:center;
+    list-style-type: none;
+    align-items: center;
+}
+.navbar p:hover{
+    color: orange;
+}
+.navbar-list .login-img{
+    justify-self: center;
+}
+.navbar-list .login-img:hover img{
+    content: url(./images/navbar-pic-member-login-hover.png);
+}
+.navbar-list .cart-img {
+    justify-self: start;
+}
+.navbar-list .cart-img:hover img{
+    content: url(./images/navbar-pic-cart-hover.png);
+}
+.navbar-list p{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Noto Serif TC', Noto Serif TC;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    position: absolute;
+    left: 100%;
+    top:50%;
+}
+.navbar-menu-wrapper {
+    display: flex;
+    position: relative;
+}
+.navbar-menu{
+    position: relative;
+}
+.navbar-menu-list{
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Noto Serif TC', serif;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    transition: .2s;
+    opacity: 0;
+}
+.navbar-menu-list a{
+    color: black;
+}
+.navbar-menu-list li{
+    width: 100%;
+    background-color: white;
+    padding:10px 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.navbar-menu-list li:first-child:hover {
+    background-color: orange;
+}
+.navbar-menu-list li:last-child:hover {
+    background-color: orange;
+}
+.navbar-menu:hover .navbar-menu-list{
+    display: block;
+    opacity: 1;
+    transition-delay: .02s;    
+}
+.navbar-menu:hover .triangle{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid orange;
+}
+.navbar-menu:hover .navbar-menu-wrapper p {
+    color: orange;
+}
+.bottom{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    letter-spacing: 3px;
+}
+.bottom-logo{
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+.bottom-community img{
+    align-items: center;
+    padding: 5px 5px;
+}
+.bottom a{
+    text-decoration: none;
+}
+.bottom-information{
+    padding: 0px 0px 5px 0px;
+}
+.bottom-note{
+    padding: 0px 0px 5px 0px;
+}
+.bottom p{
+    color: white;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+}
+.bottom h1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    padding: 0px 10px;
+    font-weight: normal;
+}
+
