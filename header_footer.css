@@ -144,3 +144,9 @@
 .txt-text-shadow{
     text-shadow: 1px 0px 10px black;
 }
+@media (max-width: 1400px) {
+    .navbar-menu-list li{
+        width: 90%;
+        padding: 3px;
+    }
+}
