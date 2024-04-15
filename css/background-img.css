@@ -1,0 +1,34 @@
+
+.wrapper-background-cloud{
+    position: relative;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+.background-cloud{
+    width: 100%;
+    position: absolute;
+}
+.background-cloud img{
+    max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+}
+.background-cloud:nth-last-child(2) img{
+    justify-content: flex-end;
+    right: 0;
+}
+.background-cloud:nth-last-child(1) img{
+    transform: scaleX(-1);
+    justify-content: flex-start;
+    left: 0;
+    top: 585px;
+}
+.background-fire{
+    width: 100%;
+}
+.background-fire img{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}

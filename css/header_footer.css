@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+
 .navbar{
     background-color: black;
     width: 100%;
@@ -19,7 +20,7 @@
 .navbar-list{
     display: grid;
     width: 100%;
-    grid-template-columns: 37% 9% 9% 9% 9% 9% 5% 13%;
+    grid-template-columns: 37% 9% 9% 10% 9% 9% 5% 13%;
     justify-items:center;
     list-style-type: none;
     align-items: center;
