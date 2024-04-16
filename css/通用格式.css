@@ -1,13 +1,13 @@
-.banner-news-page{
+.banner-menu-page{
     width: 100%;
     height: auto;
     margin-top: 116px;
     position: relative;
 }
-.banner-news-page img{
+.banner-menu-page img{
     width: 100%;
 }
-.news-page-txt{
+.menu-page-txt{
     width: 100%;
     position: absolute;
     text-align: center;
@@ -18,10 +18,10 @@
     font-family: 'Noto Serif',Noto Serof;
     color: white;
 }
-.title-news-page{
+.title-menu-page{
     margin: 67px 0px;
 }
-.title-news-page h2{
+.title-menu-page h2{
     width: 100%;
     text-align: center;
     font-family: 'Noto Serif TC', serif;

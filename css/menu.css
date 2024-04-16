@@ -15,7 +15,7 @@
     margin: auto;
     font-size: 60px;
     letter-spacing: 18px;
-    font-family: 'Noto Serif',Noto Serof;
+    font-family: 'Noto Serif',Serif;
     color: white;
 }
 .title-menu-page{
@@ -76,7 +76,7 @@
 .ramen-card h3{
     width: 100%;
     font-size: 16px;
-    font-family: 'Noto Serif TC',Noto Serof TC;
+    font-family: 'Noto Serif TC',Serif;
     letter-spacing: 2.4px;
     color: black;
     display: flex;
@@ -86,7 +86,7 @@
 .ramen-card p{
     width: 100%;
     font-size: 16px;
-    font-family: 'Noto Serif TC',Noto Serof TC;
+    font-family: 'Noto Serif TC',Serif;
     letter-spacing: 2.4px;
     color: black;
     display: flex;
