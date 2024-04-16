@@ -29,3 +29,11 @@
     font-size: 40px;
     letter-spacing: 12px;
 }
+.title-menu-page h2::after{
+    content: 'Ramen';
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+    line-height: 15px;
+}

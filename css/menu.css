@@ -29,3 +29,161 @@
     font-size: 40px;
     letter-spacing: 12px;
 }
+.title-menu-page h2::after{
+    content: 'Ramen';
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+    line-height: 15px;
+}
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-list-top{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    margin: 50px 0px;
+    justify-content: center;
+}
+.menu-list-bottom{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    margin: 50px 0px;
+    justify-content: center;
+}
+.menu-list-top a{
+    text-decoration: none;
+}
+.menu-list-bottom a{
+    text-decoration: none;
+}
+.ramen-card{
+    width: 250px;
+}
+.ramen-card img{
+    width: 100%;
+    height: auto;
+}
+.ramen-card:hover img{
+    transition: .8s;
+    transform: scale(1.1);
+}
+.ramen-card h3{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    letter-spacing: 2.4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+.ramen-card p{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    letter-spacing: 2.4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.ingredients-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ingredients-list-top{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    margin: 50px 0px;
+    justify-content: center;
+}
+.ingredients-list-bottom{
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    margin: 50px 0px;
+    justify-content: center;
+}
+.ingredients-list-top a{
+    text-decoration: none;
+}
+.ingredients-list-bottom a{
+    text-decoration: none;
+}
+
+.title-menu-ingredients{
+    margin: 67px 0px;
+}
+.title-menu-ingredients h3{
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+}
+.ingredients-card{
+    width: 200px;
+}
+.ingredients-card img{
+    width: 100%;
+    height: auto;
+}
+.ingredients-card:hover img{
+    transition: .8s;
+    transform: scale(1.1);
+}
+.ingredients-card h3{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    letter-spacing: 2.4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+.ingredients-card p{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Noto Serif TC',Noto Serof TC;
+    letter-spacing: 2.4px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.section-menu-ingredients{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 67px 0px;
+}
+.section-menu-ingredients::before{
+    content:'';
+    position: absolute;
+    background-color: lightgrey;
+    width: 1000px;
+    height: 100%;
+    z-index:-1;
+}
+.section-menu-ingredients::after{
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 25px);
+    border-width: 0 25px 50px 25px;
+    border-style: solid;
+    border-color: transparent transparent lightgrey transparent;
+    z-index: 0;
+}
+.background-cloud:nth-child(2){
+    margin-top: 150px;
+}
