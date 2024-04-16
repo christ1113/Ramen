@@ -1,0 +1,180 @@
+.banner-order-page{
+    width: 100%;
+    height: auto;
+    margin-top: 116px;
+    position: relative;
+}
+.banner-order-page img{
+    width: 100%;
+}
+.order-page-txt{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    margin: auto;
+    font-size: 60px;
+    letter-spacing: 18px;
+    font-family: 'Noto Serif',Serif;
+    color: white;
+}
+.title-order-page{
+    margin: 67px 0px;
+}
+.title-order-page h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+}
+.title-order-page h2::after{
+    content: 'Order Online';
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+    line-height: 15px;
+}
+.section-order-recommend, .section-order-necessary{
+    width: 100%;
+}
+.port-box-recommend{
+    width: 400px;
+    height: 360px;
+    background-color: lightgreen;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.port-box-necessary{
+    width: 400px;
+    height: 360px;
+    background-color: lightblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-recommend, .wrapper-necessary{
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 67px auto;
+    background-color: #f2f2f2;
+}
+.wrapper-necessary:nth-child(1){
+    order:3
+}
+.wrapper-necessary:nth-child(2){
+    order:2
+}
+.wrapper-necessary:nth-child(3){
+    order:1
+}
+.circle-pic{
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+.circle-pic img{
+    width: 250px;
+}
+.port-box-recommend h3, .port-box-necessary h3{
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    bottom: 0%;
+    left: 0%;
+    font-size: 24px;
+    letter-spacing: 3.6px;
+    font-family: 'Noto Serif TC',Serif;
+    color: black;
+    font-weight: normal;
+}
+.product-lucky-bag, .product-T-shirt, .product-iced-soup, .product-miso{
+    width: 250px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    position: relative;
+}
+.lucky-bag-img-box, .T-shirt-img-box, .iced-soup-img-box, .miso-img-box{
+    width: 250px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-lucky-bag > img, .product-T-shirt > img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    object-fit: cover;
+}
+
+.product-lucky-bag h4, .product-T-shirt h4, .product-iced-soup h4, .product-miso h4{
+    width: 100%;
+    text-align: left;
+    bottom: 0%;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    font-family: 'Noto Serif TC', Serif;
+    color: black;
+    font-weight: normal;
+    padding-left: 25px;
+}
+.product-lucky-bag > p, .product-iced-soup > p{
+    width: 60px;
+    height: 20px;
+    border: 1px solid #3b99f0;
+    text-align: center;
+    bottom: 0%;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    font-family: 'Noto Serif TC', Serif;
+    color: #3b99f0;
+    font-weight: normal;
+    margin-left: 25px;
+}
+.product-T-shirt > p, .product-miso > p{
+    width: 70px;
+    height: 20px;
+    border: 1px solid #ec7621;
+    text-align: center;
+    bottom: 0%;
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    font-family: 'Noto Serif TC', Serif;
+    color: #ec7621;
+    font-weight: normal;
+    margin-left: 25px;
+}
+.price-cart {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    gap: 125px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+.price-cart p{
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    font-family: 'Noto Serif TC', Serif;
+    color: black;
+    font-weight: normal;
+    
+
+}
+.price-cart img{
+    width: 40px;
+    height: 40px;
+}
+.port-box-necessary h3{
+    text-align: left;
+}
