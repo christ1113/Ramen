@@ -32,13 +32,13 @@
     justify-self: center;
 }
 .navbar-list .login-img:hover img{
-    content: url(./images/navbar-pic-member-login-hover.png);
+    content: url(../images/navbar-pic-member-login-hover.png);
 }
 .navbar-list .cart-img {
     justify-self: start;
 }
 .navbar-list .cart-img:hover img{
-    content: url(./images/navbar-pic-cart-hover.png);
+    content: url(../images/navbar-pic-cart-hover.png);
 }
 .navbar-list p{
     font-size: 20px;

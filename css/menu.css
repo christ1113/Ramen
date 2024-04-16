@@ -1,0 +1,31 @@
+.banner-menu-page{
+    width: 100%;
+    height: auto;
+    margin-top: 116px;
+    position: relative;
+}
+.banner-menu-page img{
+    width: 100%;
+}
+.menu-page-txt{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    margin: auto;
+    font-size: 60px;
+    letter-spacing: 18px;
+    font-family: 'Noto Serif',Noto Serof;
+    color: white;
+}
+.title-menu-page{
+    margin: 67px 0px;
+}
+.title-menu-page h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+}
