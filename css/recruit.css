@@ -1,0 +1,153 @@
+.section-recruit-page{
+    margin-top: 67px;
+}
+.banner-recruit-page{
+    width: 100%;
+    height: auto;
+    margin-top: 116px;
+    position: relative;
+}
+.banner-recruit-page img{
+    width: 100%;
+}
+.recruit-page-txt{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    margin: auto;
+    font-size: 60px;
+    letter-spacing: 18px;
+    font-family: 'Noto Serif',Serif;
+    color: white;
+}
+.title-recruit-page{
+    margin: 67px 0px;
+}
+.title-recruit-page h2{
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+    margin: 67px 0px;
+}
+.title-recruit-page h2::after{
+    content: 'Join Us';
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+    line-height: 15px;
+}
+.recruit-page-content h3{
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 12px;
+    margin: 67px 0px;
+}
+.recruit-page-pic{
+    width: 750px;
+}
+.recruit-page-pic img{
+    width: 100%;
+}
+.recruit-page-content p{
+    width: 300px;
+    text-align: center;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+}
+.benefits-list{
+    display: flex;
+    justify-content: center;
+}
+.benefits-list li{
+    margin: 4px 0px;
+}
+.benefits-list p{
+    display: flex;
+    justify-content: center;
+}
+.recruit-page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.background-cloud:nth-child(1) {
+    margin-top: 40px;
+}
+.background-cloud:nth-child(2) {
+    margin-top: -60px;
+}
+.section-benefits{
+    margin-bottom: 67px;
+}
+.vacancies-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.vacancies-list div{
+    width: 200px;
+    font-size: 24px;
+    letter-spacing: 3.6px;
+    font-family: 'Noto Serif TC',Serif;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    margin: 0px 20px;
+}
+.vacancies-list p{
+    width: 100%;
+    text-align: center;
+}
+.vacancies-list {
+    margin: 20px;
+}
+
+.vacancies-manager, .vacancies-pre-manager {
+    position: relative;
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.condition {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -20px;
+}
+
+.condition ul {
+    list-style-type: none;
+}
+
+.condition li {
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.condition li:last-child {
+    border-bottom: none;
+}
+
+.vacancies-manager:hover .condition,
+.vacancies-pre-manager:hover .condition {
+    display: block;
+    background-color: orange;
+    color: black;
+}
+
