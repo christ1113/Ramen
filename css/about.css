@@ -1,226 +1,40 @@
-.section-about-us{
-    margin: 67px 0px;
-}
 .banner-about-us{
     width: 100%;
-    height: auto;
-    margin-top: 116px;
-    position: relative;
-}
-.banner-about-us img{
-    width: 100%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
 .about-us-txt{
     width: 100%;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.about-us-txt h2{
     text-align: center;
-    bottom: 0%;
-    margin: auto;
-    font-size: 60px;
-    letter-spacing: 18px;
-    font-family: 'Noto Serif',Noto Serof;
     color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    letter-spacing: .3em;
+}
+.about-us-txt span{
+    font-family: 'Noto Sans', sans-serif;
 }
 .title-about-us{
-    margin: 67px 0px;
-}
-.wrapper-about-us-cabbage{
-    margin: 67px 0px;
-}
-.wrapper-about-us-soup{
-    margin: 67px 0px;
-}
-.wrapper-about-us-noodles{
-    margin: 67px 0px;
-}
-.title-about-us h2{
-    width: 100%;
+    font-size: 1.3em;
     text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
+    margin: 4% 0 2% 0;
+    letter-spacing: .2em;
 }
-.title-about-us h2::after{
-    content: 'About us';
-    font-family: 'Noto Serif', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    line-height: 15px;
+@media (max-width:767.9px){
+    
 }
-.wrapper-about-us-cabbage{
-    display: flex;
-    justify-content: center;
-}
-.about-us-cabbage-pic{
-    max-width: 400px;
-    height: auto;
-}
-.about-us-cabbage-pic img{
-    width: 100%;
-    height: 100%;
-}
-.about-us-cabbage-card{
-    position: relative;
-}
-.about-us-cabbage-txt{
-    width: 550px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0px 25px;
-}
-.about-us-cabbage-txt h3{
-    width: 100%;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 36px;
-    letter-spacing: 10.8px;
-    margin: 25px 0px;
-}
-.about-us-cabbage-txt p{
-    width: 100%;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    margin: 25px 0px;
-}
-.cabbage-dragon-pic{
-    width: 550px;
-    height: 104px;
-    position: relative;
-}
-.cabbage-dragon-pic img{
-    position: absolute;
-    right: 0;
-    bottom: 0%;
-    padding-right: 25px;
-}
-.about-us-cabbage-card{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
+@media (min-width:768px) and (max-width:995px){
 
-.wrapper-about-us-soup{
-    display: flex;
-    justify-content: center;
 }
-.about-us-soup-pic{
-    max-width: 400px;
-    height: auto;
-    order: 2;
-}
-.about-us-soup-pic img{
-    width: 100%;
-    height: 100%;
-}
-.about-us-soup-card{
-    position: relative;
-    order: 1;
-}
-.about-us-soup-txt{
-    width: 550px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0px 25px;
-}
-.about-us-soup-txt h3{
-    width: 100%;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 36px;
-    letter-spacing: 10.8px;
-    margin: 25px 0px;
-}
-.about-us-soup-txt p{
-    width: 100%;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    margin: 25px 0px;
-}
-.soup-dragon-pic{
-    width: 550px;
-    height: 104px;
-    position: relative;
-}
-.soup-dragon-pic img{
-    position: absolute;
-    bottom: 0%;
-    padding-right: 25px;
-    transform: scaleX(-1);
-}
-.about-us-soup-card{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+@media (min-width:996px){
 
-.wrapper-about-us-noodles{
-    display: flex;
-    justify-content: center;
-}
-.about-us-noodles-pic{
-    max-width: 400px;
-    height: auto;
-}
-.about-us-noodles-pic img{
-    width: 100%;
-    height: 100%;
-}
-.about-us-noodles-card{
-    position: relative;
-}
-.about-us-noodles-txt{
-    width: 550px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0px 25px;
-}
-.about-us-noodles-txt h3{
-    width: 100%;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 36px;
-    letter-spacing: 10.8px;
-    margin: 25px 0px;
-}
-.about-us-noodles-txt p{
-    width: 100%;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    margin: 25px 0px;
-}
-.noodles-dragon-pic{
-    width: 550px;
-    height: 104px;
-    position: relative;
-}
-.noodles-dragon-pic img{
-    position: absolute;
-    right: 0;
-    bottom: 0%;
-    padding-right: 25px;
-}
-.about-us-noodles-card{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
