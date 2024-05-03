@@ -44,17 +44,19 @@ body{
         padding: 15px 0 15px 0;
         border: 1px solid black;
     }
+
     .navbar-list{
         display: flex;
         flex-direction: column;
         justify-content: center;
         background-color: orange;
         position: absolute;
-        top: 100%;
-        right: 2%;
+        top:70px;
+        right: 0;
         width: 0;
         overflow: hidden;
         text-align: center;
+        z-index: 6;
     }
     .navbar-menu-list li{
         width: 100%;
@@ -251,6 +253,7 @@ body{
         display: flex;
         margin-left: auto;
         padding-right: 5%;
+        position: relative;
     }
     .navbar-icon .navbar-list{
         display: flex;
@@ -286,6 +289,7 @@ body{
         width: 80%;
         height: 300%;
         display: block;
+        z-index: 7;
     }
     .login-img a:hover{
         content: url('../images/navbar-pic-member-login-hover.png');
