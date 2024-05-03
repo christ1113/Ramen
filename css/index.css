@@ -43,11 +43,13 @@ html,body{
 .section-menu{
     width: 100%;
     height: auto;
-    min-height: 650px;
+    min-height: 550px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    display: flex;
+    align-items: center;
 }
 .menu-list{
     width: 100%;
@@ -59,7 +61,7 @@ html,body{
     line-height: 150%;
     font-family: 'Noto Serif TC', serif;
     color: white;
-    padding: 80px 0 80px 0;
+    padding: 5% 0;
 }
 .menu-card-wrapper{
     display: flex;
@@ -234,7 +236,7 @@ html,body{
     letter-spacing: .1em;
     line-height: 150%;
     font-family: 'Noto Serif TC', serif;
-    padding: 2% 0 3% 0;
+    padding: 5% 0;
     color: white;
 }
 .section-order-online{
@@ -285,7 +287,6 @@ html,body{
     justify-content: center;
     align-items: center;
     padding-bottom: 3%;
-    padding: 80px 0 60px 0;
 }
 @media screen and (max-width:767.9px){
     .slide p{

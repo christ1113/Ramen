@@ -1,3 +1,32 @@
+*{
+    text-decoration: none;
+}
+.radius-box{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin: 3% 0 2% 0;
+}
+.radius-cabbage:hover, .radius-soup:hover, .radius-noodles:hover{
+    background-color: white;
+    transition: 1s;
+}
+.radius-cabbage:hover a, .radius-soup:hover a, .radius-noodles:hover a{
+    color: #CF000D;
+}
+.radius-cabbage, .radius-soup, .radius-noodles{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #CF000D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CF000D;
+}
+.radius-cabbage a, .radius-soup a, .radius-noodles a{
+    color: white;
+}
 .banner-about-us{
     width: 100%;
     min-height: 350px;
@@ -29,12 +58,203 @@
     margin: 4% 0 2% 0;
     letter-spacing: .2em;
 }
+.rotate-banner-cabbage{
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper-about-us-cabbage{
+    width: 110%;
+    max-height: 450px;
+    transform: rotate(7deg);
+    margin: 10% -4% 10% -4% ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-us-cabbage-pic{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-repeat: no-repeat;
+    transform: rotate(-7deg);
+}
+.about-us-cabbage-pic img:nth-child(1){
+    border-radius: 50%;
+    width: 90%;
+    margin-top: 2%;
+}
+.about-us-cabbage-pic img:nth-child(2){
+    width: 50%;
+    margin: -30% 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-us-cabbage-card{
+    width: 60%;
+    transform: rotate(-7deg);
+}
+.about-us-cabbage-txt{
+    text-align: left;
+    padding: 0 5%;
+    letter-spacing: .3em;
+    line-height: 2em;
+    color: white;
+}
+.about-us-cabbage-txt h3{
+    margin-bottom: 3%;
+    color: #CF000D;
+    font-size: 2em;
+}
+.about-us-cabbage-txt p{
+    width: 80%;
+    text-align: center;
+}
+
+.rotate-banner-soup{
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper-about-us-soup{
+    width: 110%;
+    max-height: 450px;
+    transform: rotate(-7deg);
+    margin: 13% -4% 10% -4% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-us-soup-pic{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-repeat: no-repeat;
+    transform: rotate(7deg);
+}
+.about-us-soup-pic img:nth-child(1){
+    border-radius: 50%;
+    width: 90%;
+    margin-top: 2%;
+}
+.about-us-soup-pic img:nth-child(2){
+    width: 50%;
+    margin: -30% 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-us-soup-card{
+    width: 60%;
+    transform: rotate(7deg);
+}
+.about-us-soup-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    padding: 0 5%;
+    letter-spacing: .3em;
+    line-height: 2em;
+    color: black;
+}
+.about-us-soup-txt h3{
+    margin-bottom: 3%;
+    color: #CF000D;
+    font-size: 2em;
+}
+.about-us-soup-txt p{
+    width: 80%;
+    text-align: center;
+}
+
+.rotate-banner-noodles{
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper-about-us-noodles{
+    width: 110%;
+    max-height: 450px;
+    transform: rotate(7deg);
+    margin: 13% -4% 10% -4% ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-us-noodles-pic{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-repeat: no-repeat;
+    transform: rotate(-7deg);
+}
+.about-us-noodles-pic img:nth-child(1){
+    border-radius: 50%;
+    width: 90%;
+    margin-top: 2%;
+}
+.about-us-noodles-pic img:nth-child(2){
+    width: 50%;
+    margin: -30% 0 0 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-us-noodles-card{
+    width: 60%;
+    transform: rotate(-7deg);
+}
+.about-us-noodles-txt{
+    text-align: left;
+    padding: 0 5%;
+    letter-spacing: .3em;
+    line-height: 2em;
+    color: white;
+}
+.about-us-noodles-txt h3{
+    margin-bottom: 3%;
+    color: #CF000D;
+    font-size: 2em;
+}
+.about-us-noodles-txt p{
+    width: 80%;
+    text-align: center;
+}
 @media (max-width:767.9px){
-    
+
+    .wrapper-about-us-cabbage, .wrapper-about-us-soup, .wrapper-about-us-noodles{
+        width: 120%;
+        margin: 13% -7% 10% -7% ;
+    }
+    .about-us-cabbage-txt, .about-us-soup-txt, .about-us-noodles-txt{
+        letter-spacing: .1em;
+        line-height: 1.2em;
+    }
+    .about-us-cabbage-txt h3, .about-us-soup-txt h3, .about-us-noodles-txt h3{
+        font-size: 1em;
+    }
+    .about-us-cabbage-txt p, .about-us-soup-txt p, .about-us-noodles-txt p{
+        font-size: .6em;
+        padding-bottom: 10%;
+    }
 }
 @media (min-width:768px) and (max-width:995px){
-
-}
-@media (min-width:996px){
-
+    .about-us-cabbage-txt h3, .about-us-soup-txt h3, .about-us-noodles-txt h3{
+        font-size: 1.3em;
+    }
+    .about-us-cabbage-txt p, .about-us-soup-txt p, .about-us-noodles-txt p{
+        font-size: .8em;
+        padding-bottom: 10%;
+    }
 }
