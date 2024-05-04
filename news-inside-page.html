@@ -3,101 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>2024年度拉麵大賞榮獲金鏟鏟獎</title>
     <link rel="stylesheet" href="css/header_footer.css">
-    <link rel="stylesheet" href="css/background-img.css">
     <link rel="stylesheet" href="css/news-inside-page.css">
+    <script src="js/header_footer.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="navbar-logo">
-                    <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
-                </li>
-                <li class="navbar-about-us">
-                    <a href="about.html"><p>關於我們</p></a>
-                </li>
-                <li class="navbar-news">
-                    <a href="news.html"><p>最新消息</p></a>
-                </li>
-                <li class="navbar-menu">
-                    <a class="navbar-menu-wrapper" href="menu.html">
-                        <p>美味菜單</p>
-                        <div class="triangle"></div>
-                    </a>
-                    <ul class="navbar-menu-list">
-                        <li class="navbar-menu-ramen">
-                            <a href="#">美味拉麵</a>
-                        </li>
-                        <li class="navbar-menu-side-dishes">
-                            <a href="#">精緻小菜</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar-recruit">
-                    <a href="recruit.html"><p>人才招募</p></a>
-                </li>
-                <li>
-                    <a href="order.html"><p>線上訂購</p></a>
-                </li>
-                <li class="login-img">
-                    <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
-                </li>
-                <li class="cart-img">
-                    <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
-                </li>
-            </ul>
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
+            </div>
+            <div class="navbar-icon" id="menu-icon">
+                <ul class="navbar-list" id="navbar-list-mobile">
+                    <li class="navbar-about-us">
+                        <a href="about.html">關於我們</a>
+                    </li>
+                    <li class="navbar-news">
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li class="navbar-menu">
+                        <a class="navbar-menu-wrappr" href="menu.html">美味菜單</a>
+                        <ul class="navbar-menu-list">
+                            <li class="navbar-menu-ramen">
+                                <a href="#">美味拉麵</a>
+                            </li>
+                            <li class="navbar-menu-side-dishes">
+                                <a href="#">精緻小菜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-recruit">
+                        <a href="recruit.html">人才招募</a>
+                    </li>
+                    <li>
+                        <a href="order.html">線上訂購</a>
+                    </li>
+                    <li class="login-img">
+                        <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
+                    </li>
+                    <li class="cart-img">
+                        <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <div class="banner-news-inside-page">
-        <img src="images/news-page-pic.png" alt="">
-        <div class="news-inside-page-txt txt-text-shadow"><h2>News</h2></div>
-    </div>
+    <section class="banner-news-page" style="background-image: url(images/news-page-pic.png)">
+        <div class="news-page-txt txt-text-shadow">
+            <h2>最新消息<br><span>News</span></h2>
+        </div>
+    </section>
 
-    <div class="wrapper-background-cloud">
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
+    <section class="section-news-page">
+        <div class="title-news-page">
+            <h3>最新消息</h3>
         </div>
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
-        </div>
-    </div>
+        <ul class="news-list">
+            <li class="news-adward">
+                <a>
+                    <p>2024/3/31</p>
+                    <h3>2024年度拉麵大賞榮獲金鏟鏟獎</h3>
+                </a>
+                <div class="news-inside-page-adward-pic">
+                    <img src="images/news-inside-page-adward-pic.png" alt="">
+                </div>
+                <p>在這場拉麵大獎的盛會上，無數頂級拉麵品牌匯聚一堂，展示著各自獨特的風采。大廚們用心熬製的高湯散發著濃濃的香氣，麵條在鍋中舞動，如絲般柔韌。每一口滋味，都是一場饕餮盛宴，讓人心馳神往。評審們品味著每一碗麵的細節，探尋其中的精髓。最終，冠軍名額揭曉，贏得這殊榮的品牌脫穎而出，成為拉麵界的新寵兒，備受矚目與讚譽。這不僅是一場比賽，更是對美食文化的一次盛大致敬。</p>
+                <p>感謝您一直以來對菜流拉麵的支持<br>感謝每年黃金週期間眾多使用我們服務的客戶。為了慶祝得獎，總店將提供限量拉麵及小贈品回饋。</p>
+                <ul class="news-adward-txt-box">
+                    <li><span>[活動日期：]</span> 2024/3/31 ~ 2024/7/19</li>
+                    <li><span>[特殊商品：]</span></li>
+                    <ul class="news-adward-content">
+                        <li>
+                            <p>特殊套餐：套餐A |「福星高照請財神」套餐B| 「心鋼之聲慶過年套餐」</p>
+                            <div class="set-box">
+                                <img src="images/news-adward-content-Aset.png" alt="">
+                                <img src="images/news-adward-content-Bset.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <p>特別版贈品：「扭蛋狂歡」</p>
+                            <div class="price-box">
+                                <img src="images/news-adward-content-price-green.png" alt="">
+                                <img src="images/news-adward-content-price-black.png" alt="">
+                                <img src="images/news-adward-content-price-beige.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
+            </li>
+        </ul>
+    </section>
 
-    <div class="section-news-inside-page">
-        <div class="title-news-inside-page">
-            <h2>2024年度拉麵大賞榮獲金鏟鏟獎</h2>
-            <p>2024.03.31</p>
-        </div>
-        <div class="news-inside-page-content">
-            <div class="news-inside-page-adward-pic">
-                <img src="images/news-inside-page-adward-pic.png" alt="">
-            </div>
-            <p>在這場拉麵大獎的盛會上，無數頂級拉麵品牌匯聚一堂，展示著各自獨特的風采。大廚們用心熬製的高湯散發著濃濃的香氣，麵條在鍋中舞動，如絲般柔韌。每一口滋味，都是一場饕餮盛宴，讓人心馳神往。評審們品味著每一碗麵的細節，探尋其中的精髓。最終，冠軍名額揭曉，贏得這殊榮的品牌脫穎而出，成為拉麵界的新寵兒，備受矚目與讚譽。這不僅是一場比賽，更是對美食文化的一次盛大致敬。</p>
-        </div>
-
-    <div class="background-fire">
-        <img src="images/background-fire.png" alt="">
-    </div>
     <footer>
-        <div class="bottom">
+        <nav class="bottom">
             <a href="#" class="bottom-logo">
                 <div class="bottom-logo-img"><img src="images/logo-bottom.png" alt=""></div>
-                <div class="bottom-logo-name"><h1>菜流拉麵</h1></div>
+                <div class="bottom-logo-name">
+                    <h1>菜流拉麵</h1>
+                </div>
             </a>
-            <div class="bottom-community">
-                <a href="#" class="bottom-community-instragram"><img src="images/icon-instragram.png" alt=""></a>
-                <a href="#" class="bottom-community-youtube"><img src="images/icon-youtube.png" alt=""></a>
-                <a href="#" class="bottom-community-twitter"><img src="images/icon-twitter.png" alt=""></a>
-            </div>
             <div class="bottom-information">
-                <p>聯絡地址 | 台北市西區方向路123號之4<br>聯絡電話 | 0921345678<br>營業時間 | 除國定假日皆有營業</p>
+                <p>聯絡地址 | 台北市西區方向路<span>123</span>號之<span>45</span><br>聯絡電話 | <span>0921345678</span><br>營業時間 |
+                    除國定假日及公告公休日 平日皆有營業</p>
             </div>
             <div class="bottom-note">
-                <p>本網站為TibaMe前端工程師班展示用，僅供展示、學習使用</p>
+                <p>本網站為<span>TibaMe</span>前端工程師班展示用，僅供展示、學習使用</p>
             </div>
-        </div>
+        </nav>
     </footer>
 </body>
 </html>

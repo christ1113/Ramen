@@ -1,75 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>美味菜單</title>
     <link rel="stylesheet" href="css/header_footer.css">
-    <link rel="stylesheet" href="css/background-img.css">
     <link rel="stylesheet" href="css/menu.css">
+    <script src="js/header_footer.js"></script>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="navbar-logo">
-                    <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
-                </li>
-                <li class="navbar-about-us">
-                    <a href="about.html"><p>關於我們</p></a>
-                </li>
-                <li class="navbar-news">
-                    <a href="news.html"><p>最新消息</p></a>
-                </li>
-                <li class="navbar-menu">
-                    <a class="navbar-menu-wrapper" href="menu.html">
-                        <p>美味菜單</p>
-                        <div class="triangle"></div>
-                    </a>
-                    <ul class="navbar-menu-list">
-                        <li class="navbar-menu-ramen">
-                            <a href="#">美味拉麵</a>
-                        </li>
-                        <li class="navbar-menu-side-dishes">
-                            <a href="#">精緻小菜</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar-recruit">
-                    <a href="recruit.html"><p>人才招募</p></a>
-                </li>
-                <li>
-                    <a href="order.html"><p>線上訂購</p></a>
-                </li>
-                <li class="login-img">
-                    <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
-                </li>
-                <li class="cart-img">
-                    <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
-                </li>
-            </ul>
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
+            </div>
+            <div class="navbar-icon" id="menu-icon">
+                <ul class="navbar-list" id="navbar-list-mobile">
+                    <li class="navbar-about-us">
+                        <a href="about.html">關於我們</a>
+                    </li>
+                    <li class="navbar-news">
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li class="navbar-menu">
+                        <a class="navbar-menu-wrappr" href="menu.html">美味菜單</a>
+                        <ul class="navbar-menu-list">
+                            <li class="navbar-menu-ramen">
+                                <a href="#">美味拉麵</a>
+                            </li>
+                            <li class="navbar-menu-side-dishes">
+                                <a href="#">精緻小菜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-recruit">
+                        <a href="recruit.html">人才招募</a>
+                    </li>
+                    <li>
+                        <a href="order.html">線上訂購</a>
+                    </li>
+                    <li class="login-img">
+                        <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
+                    </li>
+                    <li class="cart-img">
+                        <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    
-    <div class="banner-menu-page">
-        <img src="images/menu-pic.png" alt="">
-        <div class="menu-page-txt txt-text-shadow"><h2>Menu</h2></div>
-    </div>
 
-    <div class="wrapper-background-cloud">
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
+    <section class="banner-menu-page" style="background-image: url(images/menu-pic.png)">
+        <div class="menu-page-txt txt-text-shadow">
+            <h2>美味菜單<br><span>Menu</span></h2>
         </div>
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
-        </div>
-    </div>
+    </section>
 
-    <div class="section-menu-page">
+    <section class="section-menu-page">
         <div class="title-menu-page">
             <h2>美味拉麵<br></h2>
         </div>
-        <div class="menu-list">
+        <div class="area-ramen">
+            <div class="ramen-img-box">
+                <div class="large-img-box">
+                    <img src="images/soy-sauce-ramen-pic.png" alt="">
+                </div>
+                <div class="ramen-introduce">
+                    <div class="soy-sauce-introduce">
+                        <h3>白菜醬油拉麵</h3>
+                        <p>以鮮嫩的白菜和濃郁的醬油湯頭為特色。湯頭醇厚濃郁，口感鮮美，白菜的清爽口感和湯頭的香濃相輔相成，帶來絕佳的食物體驗。這道料理常常搭配著彈牙的拉麵麵條和各種配料，是許多人心目中的美味首選。
+                        </p>
+                    </div>
+                    <div class="miso-introduce" style="display: none;">
+                        <h3>白菜味噌拉麵</h3>
+                        <p>以豐富的味噌湯頭為基礎，加入新鮮的白菜，呈現出豐富而濃厚的風味。味噌湯頭帶有濃厚的大豆香氣，與白菜的清甜口感完美結合，為人們帶來溫暖與滿足的美味享受。這道料理不僅口感豐富，還能讓人感受到家的溫馨氛圍。
+                        </p>
+                    </div>
+                    <div class="tonkotsu-introduce" style="display: none;">
+                        <h3>白菜豚骨拉麵</h3>
+                        <p>融合了豚骨湯頭的濃郁和白菜的清爽，營造出獨特的風味。湯頭以豚骨熬煮而成，口感濃厚，帶有豐富的肉香，而白菜的添加則為湯頭增添了清新的口感和營養價值。這道料理是拉麵愛好者的不二選擇，帶來滿足而美味的用餐體驗。
+                        </p>
+                    </div>
+                </div>
+                <div class="small-img-box">
+                    <img src="images/soy-sauce-ramen-pic.png" alt="">
+                    <img src="images/miso-ramen-pic.png" alt="">
+                    <img src="images/tonkotsu-ramen-pic.png" alt="">
+                </div>
+            </div>
+        </div>
+        <script>
+            document.querySelector('.soy-sauce-introduce').style.display = 'block';
+            const introduceContainers = document.querySelectorAll(".ramen-introduce > div");
+            const smallImgs = document.querySelectorAll(".small-img-box img");
+            const largeImg = document.querySelector('.large-img-box img');
+
+            smallImgs.forEach((img, index) => {
+                img.addEventListener("click", function () {
+                    largeImg.src = this.src;
+                    
+                    introduceContainers.forEach(container => {
+                        container.style.display = "none";
+                    });
+                    introduceContainers[index].style.display = "block";
+                });
+            });
+        </script>
+        <!-- <ul class="menu-list">
             <div class="menu-list-top">
                 <a href="menu-inside-page.html" class="ramen-card">
                     <img src="images/soy-sauce-ramen-pic.png" alt="">
@@ -104,71 +143,69 @@
                     <p>$300</p>
                 </a>
             </div>
-        </div>
+        </ul> -->
 
-    <div class="section-menu-ingredients">
-        <div class="wrapper-menu-ingredients">
-            <div class="title-menu-ingredients"><h3>配料區</h3></div>
-            <div class="ingredients-list">
-                <div class="ingredients-list-top">
-                    <a href="#" class="ingredients-card">                        <img src="images/ingredients-egg-pic.png" alt="">
-                        <h3>糖心蛋</h3>
-                        <p>$30</p>
-                    </a>
-
-                    </a>
-                    <a href="#" class="ingredients-card">                        <img src="images/ingredients-egg-pic.png" alt="">
-                        <h3>糖心蛋</h3>
-                        <p>$30</p>
-                    </a>
-                    <a href="#" class="ingredients-card">
-                        <img src="images/ingredients-egg-pic.png" alt="">
-                        <h3>糖心蛋</h3>
-                        <p>$30</p>
-                    </a>
+        <div class="section-menu-ingredients">
+            <div class="wrapper-menu-ingredients">
+                <div class="title-menu-ingredients">
+                    <h3>配料區</h3>
                 </div>
-                <div class="ingredients-list-bottom">
-                    <a href="#" class="ingredients-card">
-                        <img src="images/ingredients-rice-pic.png" alt="">
-                        <h3>白飯</h3>
-                        <p>$30</p>
-                    </a>
-                    <a href="#" class="ingredients-card">
-                        <img src="images/ingredients-rice-pic.png" alt="">
-                        <h3>白飯</h3>
-                        <p>$30</p>
-                    </a>
-                    <a href="#" class="ingredients-card">
-                        <img src="images/ingredients-rice-pic.png" alt="">
-                        <h3>白飯</h3>
-                        <p>$30</p>
-                    </a>
+                <div class="ingredients-list">
+                    <div class="ingredients-list-top">
+                        <a href="#" class="ingredients-card"> <img src="images/ingredients-egg-pic.png" alt="">
+                            <h3>糖心蛋</h3>
+                            <p>$30</p>
+                        </a>
+
+                        </a>
+                        <a href="#" class="ingredients-card"> <img src="images/ingredients-egg-pic.png" alt="">
+                            <h3>糖心蛋</h3>
+                            <p>$30</p>
+                        </a>
+                        <a href="#" class="ingredients-card">
+                            <img src="images/ingredients-egg-pic.png" alt="">
+                            <h3>糖心蛋</h3>
+                            <p>$30</p>
+                        </a>
+                    </div>
+                    <div class="ingredients-list-bottom">
+                        <a href="#" class="ingredients-card">
+                            <img src="images/ingredients-rice-pic.png" alt="">
+                            <h3>白飯</h3>
+                            <p>$30</p>
+                        </a>
+                        <a href="#" class="ingredients-card">
+                            <img src="images/ingredients-rice-pic.png" alt="">
+                            <h3>白飯</h3>
+                            <p>$30</p>
+                        </a>
+                        <a href="#" class="ingredients-card">
+                            <img src="images/ingredients-rice-pic.png" alt="">
+                            <h3>白飯</h3>
+                            <p>$30</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>    
 
-    <div class="background-fire">
-        <img src="images/background-fire.png" alt="">
-    </div>
-    <footer>
-        <div class="bottom">
-            <a href="#" class="bottom-logo">
-                <div class="bottom-logo-img"><img src="images/logo-bottom.png" alt=""></div>
-                <div class="bottom-logo-name"><h1>菜流拉麵</h1></div>
-            </a>
-            <div class="bottom-community">
-                <a href="#" class="bottom-community-instragram"><img src="images/icon-instragram.png" alt=""></a>
-                <a href="#" class="bottom-community-youtube"><img src="images/icon-youtube.png" alt=""></a>
-                <a href="#" class="bottom-community-twitter"><img src="images/icon-twitter.png" alt=""></a>
-            </div>
-            <div class="bottom-information">
-                <p>聯絡地址 | 台北市西區方向路123號之4<br>聯絡電話 | 0921345678<br>營業時間 | 除國定假日皆有營業</p>
-            </div>
-            <div class="bottom-note">
-                <p>本網站為TibaMe前端工程師班展示用，僅供展示、學習使用</p>
-            </div>
-        </div>
-    </footer>
+        <footer>
+            <nav class="bottom">
+                <a href="#" class="bottom-logo">
+                    <div class="bottom-logo-img"><img src="images/logo-bottom.png" alt=""></div>
+                    <div class="bottom-logo-name">
+                        <h1>菜流拉麵</h1>
+                    </div>
+                </a>
+                <div class="bottom-information">
+                    <p>聯絡地址 | 台北市西區方向路<span>123</span>號之<span>45</span><br>聯絡電話 | <span>0921345678</span><br>營業時間 |
+                        除國定假日及公告公休日 平日皆有營業</p>
+                </div>
+                <div class="bottom-note">
+                    <p>本網站為<span>TibaMe</span>前端工程師班展示用，僅供展示、學習使用</p>
+                </div>
+            </nav>
+        </footer>
 </body>
+
 </html>

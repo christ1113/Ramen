@@ -1,189 +1,70 @@
 .banner-menu-page{
     width: 100%;
-    height: auto;
-    margin-top: 116px;
-    position: relative;
-}
-.banner-menu-page img{
-    width: 100%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
 .menu-page-txt{
     width: 100%;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.menu-page-txt h2{
     text-align: center;
-    bottom: 0%;
-    margin: auto;
-    font-size: 60px;
-    letter-spacing: 18px;
-    font-family: 'Noto Serif',Serif;
     color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    letter-spacing: .3em;
+}
+.menu-page-txt span{
+    font-family: 'Noto Sans', sans-serif;
 }
 .title-menu-page{
-    margin: 67px 0px;
-}
-.title-menu-page h2{
-    width: 100%;
+    font-size: 1.3em;
     text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
+    margin: 4% 0 2% 0;
+    letter-spacing: .2em;
 }
-.title-menu-page h2::after{
-    content: 'Ramen';
-    font-family: 'Noto Serif', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    line-height: 15px;
+.area-ramen{
+    margin-top: 5%;
 }
-.menu-list{
+.ramen-img-box{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
-.menu-list-top{
+.large-img-box{
+    width: 50%;
+}
+.large-img-box img{
+    border-radius: 50%;
     width: 100%;
-    display: flex;
-    gap: 100px;
-    margin: 50px 0px;
-    justify-content: center;
 }
-.menu-list-bottom{
-    width: 100%;
-    display: flex;
-    gap: 100px;
-    margin: 50px 0px;
-    justify-content: center;
+.ramen-introduce{
+    margin-left: -5%;
 }
-.menu-list-top a{
-    text-decoration: none;
-}
-.menu-list-bottom a{
-    text-decoration: none;
-}
-.ramen-card{
-    width: 250px;
-}
-.ramen-card img{
-    width: 100%;
-    height: auto;
-}
-.ramen-card:hover img{
-    transition: .8s;
-    transform: scale(1.1);
-}
-.ramen-card h3{
-    width: 100%;
-    font-size: 16px;
-    font-family: 'Noto Serif TC',Serif;
-    letter-spacing: 2.4px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-weight: normal;
-}
-.ramen-card p{
-    width: 100%;
-    font-size: 16px;
-    font-family: 'Noto Serif TC',Serif;
-    letter-spacing: 2.4px;
-    color: black;
-    display: flex;
-    justify-content: center;
-}
-
-.ingredients-list{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.ingredients-list-top{
-    width: 100%;
-    display: flex;
-    gap: 100px;
-    margin: 50px 0px;
-    justify-content: center;
-}
-.ingredients-list-bottom{
-    width: 100%;
-    display: flex;
-    gap: 100px;
-    margin: 50px 0px;
-    justify-content: center;
-}
-.ingredients-list-top a{
-    text-decoration: none;
-}
-.ingredients-list-bottom a{
-    text-decoration: none;
-}
-
-.title-menu-ingredients{
-    margin: 67px 0px;
-}
-.title-menu-ingredients h3{
-    width: 100%;
+.ramen-introduce h3{
+    font-size: 2em;
+    color: #CF000D;
+    border-bottom: 2px solid #CF000D;
+    padding-bottom: 3%;
     text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
 }
-.ingredients-card{
-    width: 200px;
+.ramen-introduce p{
+    padding: 3% 5% 0 5%;
 }
-.ingredients-card img{
-    width: 100%;
-    height: auto;
-}
-.ingredients-card:hover img{
-    transition: .8s;
-    transform: scale(1.1);
-}
-.ingredients-card h3{
-    width: 100%;
-    font-size: 16px;
-    font-family: 'Noto Serif TC',Noto Serof TC;
-    letter-spacing: 2.4px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-weight: normal;
-}
-.ingredients-card p{
-    width: 100%;
-    font-size: 16px;
-    font-family: 'Noto Serif TC',Noto Serof TC;
-    letter-spacing: 2.4px;
-    color: black;
+.small-img-box{
+    width: 50%;
     display: flex;
     justify-content: center;
 }
-.section-menu-ingredients{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 67px 0px;
+.small-img-box img{
+    width: 16%;
 }
-.section-menu-ingredients::before{
-    content:'';
-    position: absolute;
-    background-color: lightgrey;
-    width: 1000px;
-    height: 100%;
-    z-index:-1;
-}
-.section-menu-ingredients::after{
-    content: '';
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 25px);
-    border-width: 0 25px 50px 25px;
-    border-style: solid;
-    border-color: transparent transparent lightgrey transparent;
-    z-index: 0;
-}
-.background-cloud:nth-child(2){
-    margin-top: 150px;
+.ramen-introduce{
+    width: 50%;
 }

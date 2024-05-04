@@ -1,72 +1,81 @@
-.section-news-inside-page{
-    margin-top: 67px;
-}
-.banner-news-inside-page{
+.banner-news-page{
     width: 100%;
-    height: auto;
-    margin-top: 116px;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+.news-page-txt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.news-page-txt h2{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    letter-spacing: .3em;
+}
+.news-page-txt span{
+    font-family: 'Noto Sans', sans-serif;
+}
+.title-news-page{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 4% 0 2% 0;
+    letter-spacing: .2em;
+}
+.news-list{
+    list-style: none;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.news-adward a, .news-cabbage a, .news-order-online a{
+    width: 40%;
+    display: inline-block;
+    border-bottom: 1px solid #CF000D;
+    padding-bottom: 5%;
+    margin: 3% 0 3% 0;
+}
+.news-adward p, .news-cabbage p, .news-order-online p{
+    font-size: .9em;
+    text-align: left;
+    color: black;
+    margin: 2% 0;
+}
+.news-adward h3, .news-cabbage h3, .news-order-online h3{
+    font-size: 1em;
+    text-align: left;
+    color: black;
+    letter-spacing: .4em;
     position: relative;
 }
-.banner-news-inside-page img{
-    width: 100%;
+.news-adward span, .news-cabbage span, .news-order-online span{
+    font-weight: bold;
 }
-.news-inside-page-txt{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    bottom: 0%;
-    margin: auto;
-    font-size: 60px;
-    letter-spacing: 18px;
-    font-family: 'Noto Serif',Serif;
-    color: white;
+.news-adward-txt-box{
+    padding-left: 2%;
 }
-.title-news-inside-page{
-    margin: 67px 0px;
+.news-adward-content{
+    padding-left: 4%;
 }
-.title-news-inside-page h2{
-    width: 100%;
-    text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    margin: 67px 0px;
+.news-adward-txt-box{
+    margin: 3% 0 0 0;
 }
-.title-news-inside-page p{
-    width: 100%;
-    text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 24px;
-    letter-spacing: 3.6px;
-    margin: 67px 0px;
+.set-box img{
+    width: 46%;
+    margin: 0 1%;
 }
-.news-inside-page-adward-pic{
-    width: 750px;
-    height: 375px;
+.price-box img{
+    width: 30%;
+    margin: 1% 1% 5% 1%;
 }
 .news-inside-page-adward-pic img{
     width: 100%;
-}
-.news-inside-page-content p{
-    width: 750px;
-    text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    margin: 67px 0px;
-    padding: 0px 10px;
-}
-.news-inside-page-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.background-cloud:nth-child(1) {
-    margin-top: 40px;
-}
-.background-cloud:nth-child(2) {
-    margin-top: -60px;
 }

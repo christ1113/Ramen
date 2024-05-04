@@ -1,134 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>最新消息</title>
     <link rel="stylesheet" href="css/header_footer.css">
-    <link rel="stylesheet" href="css/background-img.css">
     <link rel="stylesheet" href="css/news.css">
+    <script src="js/header_footer.js"></script>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="navbar-logo">
-                    <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
-                </li>
-                <li class="navbar-about-us">
-                    <a href="about.html"><p>關於我們</p></a>
-                </li>
-                <li class="navbar-news">
-                    <a href="news.html"><p>最新消息</p></a>
-                </li>
-                <li class="navbar-menu">
-                    <a class="navbar-menu-wrapper" href="menu.html">
-                        <p>美味菜單</p>
-                        <div class="triangle"></div>
-                    </a>
-                    <ul class="navbar-menu-list">
-                        <li class="navbar-menu-ramen">
-                            <a href="#">美味拉麵</a>
-                        </li>
-                        <li class="navbar-menu-side-dishes">
-                            <a href="#">精緻小菜</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar-recruit">
-                    <a href="recruit.html"><p>人才招募</p></a>
-                </li>
-                <li>
-                    <a href="order.html"><p>線上訂購</p></a>
-                </li>
-                <li class="login-img">
-                    <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
-                </li>
-                <li class="cart-img">
-                    <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
-                </li>
-            </ul>
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
+            </div>
+            <div class="navbar-icon" id="menu-icon">
+                <ul class="navbar-list" id="navbar-list-mobile">
+                    <li class="navbar-about-us">
+                        <a href="about.html">關於我們</a>
+                    </li>
+                    <li class="navbar-news">
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li class="navbar-menu">
+                        <a class="navbar-menu-wrappr" href="menu.html">美味菜單</a>
+                        <ul class="navbar-menu-list">
+                            <li class="navbar-menu-ramen">
+                                <a href="#">美味拉麵</a>
+                            </li>
+                            <li class="navbar-menu-side-dishes">
+                                <a href="#">精緻小菜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-recruit">
+                        <a href="recruit.html">人才招募</a>
+                    </li>
+                    <li>
+                        <a href="order.html">線上訂購</a>
+                    </li>
+                    <li class="login-img">
+                        <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
+                    </li>
+                    <li class="cart-img">
+                        <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <div class="banner-news-page">
-        <img src="images/news-page-pic.png" alt="">
-        <div class="news-page-txt txt-text-shadow"><h2>News</h2></div>
-    </div>
-
-    <div class="wrapper-background-cloud">
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
+    <section class="banner-news-page" style="background-image: url(images/news-page-pic.png)">
+        <div class="news-page-txt txt-text-shadow">
+            <h2>最新消息<br><span>News</span></h2>
         </div>
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
-        </div>
-    </div>
+    </section>
 
-    <div class="section-news-page">
+    <section class="section-news-page">
         <div class="title-news-page">
-            <h2>最新消息<br></h2>
+            <h3>最新消息</h3>
         </div>
         <ul class="news-list">
             <li class="news-adward">
                 <a href="news-inside-page.html">
-                    <h3>2024年度拉麵大賞榮獲金鏟鏟獎</h3>
                     <p>2024/3/31</p>
+                    <h3>2024年度拉麵大賞榮獲金鏟鏟獎</h3>
                 </a>
+                <p>感謝您一直以來對菜流拉麵的支持<br>感謝每年黃金週期間眾多使用我們服務的客戶。為了慶祝得獎，總店將提供限量拉麵及小贈品回饋。</p>
+                <ul class="news-adward-txt-box">
+                    <li><span>[活動日期：]</span> 2024/3/31 ~ 2024/7/19</li>
+                    <li><span>[特殊商品：]</span></li>
+                    <ul class="news-adward-content">
+                        <li>
+                            <p>特殊套餐：套餐A |「福星高照請財神」套餐B| 「心鋼之聲慶過年套餐」</p>
+                            <div class="set-box">
+                                <img src="images/news-adward-content-Aset.png" alt="">
+                                <img src="images/news-adward-content-Bset.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <p>特別版贈品：「扭蛋狂歡」</p>
+                            <div class="price-box">
+                                <img src="images/news-adward-content-price-green.png" alt="">
+                                <img src="images/news-adward-content-price-black.png" alt="">
+                                <img src="images/news-adward-content-price-beige.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
             </li>
             <li class="news-cabbage">
                 <a href="news-inside-page.html">
-                    <h3>關於白菜你不知道的那些事</h3>
                     <p>2024/3/30</p>
+                    <h3>關於白菜你不知道的那些事</h3>
                 </a>
+                <p>白菜，是一種廣受歡迎的蔬菜，不僅在菜市場和超市中常見，而且被廣泛用於各種烹飪中。<br>除了其美味外，白菜還具有豐富的營養價值</p>
+                <img src="images/news-cabbage-content-pic.png" alt="">
+                <ul class="cabbage-introduce">
+                    <li>
+                        <span>關於白菜的營養價值</span>
+                        <p>1.維生素豐富：白菜是維生素C的良好來源，有助於增強免疫系統並促進健康的皮膚。此外，它還含有維生素K，有助於血液凝結和骨骼健康。<br>2.纖維含量高：白菜含有豐富的膳食纖維，有助於促進消化系統健康並預防便秘。這使其成為一種健康的蔬菜選擇，尤其是對於那些希望維持消化系統正常功能的人來說。<br>3.低熱量：白菜的熱量非常低，因此它是控制體重的理想選擇。無論是作為生食還是烹飪食用，白菜都能提供飽足感，而不會增加過多的卡路里攝入量。<br>4.礦物質補充：白菜含有多種重要的礦物質，如鉀、鈣和錳。這些礦物質對於維持身體的正常功能至關重要，特別是對於心臟健康、骨骼健康和代謝過程。
+                        </p>
+                    </li>
+                    <li>
+                        <span>白菜的盛產地</span>
+                        <p>1.中部地區：中部地區包括彰化、雲林、台中等地，這些地區的氣候和土壤適合白菜的種植，因此白菜在這些地區的產量較高。<br>2.南部地區：台南、嘉義等南部地區也有一定的白菜種植面積，這些地區的氣候較溫暖，能夠讓白菜在冬季繁茂生長。<br>3.東部地區：東部地區的花蓮、台東等地，由於地理條件的影響，白菜的種植面積較少，但仍有部分農民在這些地區種植白菜以供應當地市場。<br>4.北部地區：北部地區的新北市、桃園、台北等地，由於市區化程度較高，種植面積有限，但仍有部分農民在郊區或山區種植白菜。
+                        </p>
+                    </li>
+                </ul>
             </li>
             <li class="news-order-online">
                 <a href="news-inside-page.html">
+                    <p>2024/3/20</p>
                     <h3>福袋跟T-shirt開賣啦</h3>
-                    <p>2024/3/29</p>
                 </a>
-            </li>
-            <li class="news-adward">
-                <a href="news-inside-page.html">
-                    <h3>2024年度拉麵大賞榮獲金鏟鏟獎</h3>
-                    <p>2024/3/31</p>
-                </a>
-            </li>
-            <li class="news-cabbage">
-                <a href="news-inside-page.html">
-                    <h3>關於白菜你不知道的那些事</h3>
-                    <p>2024/3/30</p>
-                </a>
-            </li>
-            <li class="news-order-online">
-                <a href="news-inside-page.html">
-                    <h3>福袋跟T-shirt開賣啦</h3>
-                    <p>2024/3/29</p>
-                </a>
+                <ul class="news-order-online-txt-box">
+                    <li><span>[活動日期：]</span> 2024/3/20 ~ 2024/7/19</li>
+                    <ul class="news-order-online-content">
+                        <li>
+                            <p>一周年限定商品：「一周年歡慶福袋」「限定版T-shirt」</p>
+                            <div class="product-box">
+                                <img src="images/news-order-online-content-lucky-bag.png" alt="">
+                                <img src="images/news-order-online-content-T-shirt.png" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
             </li>
         </ul>
-    </div>
-    <div class="background-fire">
-        <img src="images/background-fire.png" alt="">
-    </div>
+    </section>
+
     <footer>
-        <div class="bottom">
+        <nav class="bottom">
             <a href="#" class="bottom-logo">
                 <div class="bottom-logo-img"><img src="images/logo-bottom.png" alt=""></div>
-                <div class="bottom-logo-name"><h1>菜流拉麵</h1></div>
+                <div class="bottom-logo-name">
+                    <h1>菜流拉麵</h1>
+                </div>
             </a>
-            <div class="bottom-community">
-                <a href="#" class="bottom-community-instragram"><img src="images/icon-instragram.png" alt=""></a>
-                <a href="#" class="bottom-community-youtube"><img src="images/icon-youtube.png" alt=""></a>
-                <a href="#" class="bottom-community-twitter"><img src="images/icon-twitter.png" alt=""></a>
-            </div>
             <div class="bottom-information">
-                <p>聯絡地址 | 台北市西區方向路123號之4<br>聯絡電話 | 0921345678<br>營業時間 | 除國定假日皆有營業</p>
+                <p>聯絡地址 | 台北市西區方向路<span>123</span>號之<span>45</span><br>聯絡電話 | <span>0921345678</span><br>營業時間 |
+                    除國定假日及公告公休日 平日皆有營業</p>
             </div>
             <div class="bottom-note">
-                <p>本網站為TibaMe前端工程師班展示用，僅供展示、學習使用</p>
+                <p>本網站為<span>TibaMe</span>前端工程師班展示用，僅供展示、學習使用</p>
             </div>
-        </div>
+        </nav>
     </footer>
 </body>
 </html>
