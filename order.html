@@ -3,160 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>線上訂購</title>
     <link rel="stylesheet" href="css/header_footer.css">
-    <link rel="stylesheet" href="css/background-img.css">
     <link rel="stylesheet" href="css/order.css">
+    <script src="js/header_footer.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="navbar-logo">
-                    <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
-                </li>
-                <li class="navbar-about-us">
-                    <a href="about.html"><p>關於我們</p></a>
-                </li>
-                <li class="navbar-news">
-                    <a href="news.html"><p>最新消息</p></a>
-                </li>
-                <li class="navbar-menu">
-                    <a class="navbar-menu-wrapper" href="menu.html">
-                        <p>美味菜單</p>
-                        <div class="triangle"></div>
-                    </a>
-                    <ul class="navbar-menu-list">
-                        <li class="navbar-menu-ramen">
-                            <a href="#">美味拉麵</a>
-                        </li>
-                        <li class="navbar-menu-side-dishes">
-                            <a href="#">精緻小菜</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar-recruit">
-                    <a href="recruit.html"><p>人才招募</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="order.html"><p>線上訂購</p></a>
-                </li>
-                <li class="login-img">
-                    <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
-                </li>
-                <li class="cart-img">
-                    <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
-                </li>
-            </ul>
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
+            </div>
+            <div class="navbar-icon" id="menu-icon">
+                <ul class="navbar-list" id="navbar-list-mobile">
+                    <li class="navbar-about-us">
+                        <a href="about.html">關於我們</a>
+                    </li>
+                    <li class="navbar-news">
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li class="navbar-menu">
+                        <a class="navbar-menu-wrappr" href="menu.html">美味菜單</a>
+                        <ul class="navbar-menu-list">
+                            <li class="navbar-menu-ramen">
+                                <a href="#">美味拉麵</a>
+                            </li>
+                            <li class="navbar-menu-side-dishes">
+                                <a href="#">精緻小菜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-recruit">
+                        <a href="recruit.html">人才招募</a>
+                    </li>
+                    <li>
+                        <a href="order.html">線上訂購</a>
+                    </li>
+                    <li class="login-img">
+                        <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
+                    </li>
+                    <li class="cart-img">
+                        <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     
-    <div class="banner-order-page">
-        <img src="images/order-page-pic.png" alt="">
-        <div class="order-page-txt txt-text-shadow"><h2>Order Online</h2></div>
-    </div>
+    <section class="banner-order" style="background-image: url(images/order-page-pic.png);">
+        <div class="order-txt txt-text-shadow"><h2>線上訂購<br><span>Order Online</span></h2></div>
+    </section>
 
-    <div class="wrapper-background-cloud">
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
-        </div>
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
-        </div>
-    </div>
-
-    <div class="section-order-page">
-        <div class="title-order-page">
-            <h2>線上訂購<br></h2>
+    <section class="section-order">
+        <div class="title-order">
+            <h3>線上訂購</h3>
         </div>
         <div class="section-order-recommend">
-            <div class="wrapper-recommend">
-                <div class="port-box-recommend">
-                    <div class="circle-pic">
-                        <img src="images/circle-recommend-pic.png" alt="">
-                    </div>
-                    <h3>強力推薦</h3>
-                </div>
-                <div class="product-lucky-bag">
-                    <div class="lucky-bag-img-box">
-                        <img src="images/lucky-bag-pic.png" alt="">
-                    </div>
-                    <h4>一周年歡慶福袋</h4>
-                    <p>限時販售</p>
-                    <div class="price-cart">
-                        <p>$500</p>
-                        <img src="images/price-cart-pic.png" alt="">
-                    </div>
-                </div>
-                <div class="product-T-shirt">
-                    <div class="T-shirt-img-box">
-                        <img src="images/T-shirt-pic.png" alt="">
-                    </div>
-                    <h4>菜流聯名T-shirt</h4>
-                    <p>火熱販賣中</p>
-                    <div class="price-cart">
-                        <p>$500</p>
-                        <img src="images/price-cart-pic.png" alt="">
+            <div class="port-box-recommend">
+                <img src="images/recommend-pic.jpg" alt="">
+                <div class="product-recommend">
+                    <h4>強力推薦</h4>
+                    <div class="product-recommend-box">
+                        <div class="product-lucky-bag">
+                            <div class="lucky-bag-img-box">
+                                <img src="images/lucky-bag-pic.png" alt="">
+                            </div>
+                            <span>一周年歡慶福袋</span>
+                            <p>限時販售</p>
+                            <div class="price-cart">
+                                <p>$500</p>
+                                <div class="count-box">
+                                    <button>-</button>
+                                    <input type="text" value="0">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-T-shirt">
+                            <div class="lucky-bag-img-box">
+                                <img src="images/T-shirt-pic.png" alt="">
+                            </div>
+                            <span>菜流聯名T-shirt</span>
+                            <p>火熱販賣中</p>
+                            <div class="price-cart">
+                                <p>$500</p>
+                                <div class="count-box">
+                                    <button>-</button>
+                                    <input type="text" value="0">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="section-order-necessary">
-            <div class="wrapper-necessary">
-                <div class="product-iced-soup">
-                    <div class="iced-soup-img-box">
-                        <img src="images/iced-soup-pic.png" alt="">
-                    </div>
-                    <h4>冷凍豬骨湯</h4>
-                    <p>限時販售</p>
-                    <div class="price-cart">
-                        <p>$500</p>
-                        <img src="images/price-cart-pic.png" alt="">
-                    </div>
-                </div>
-                <div class="product-miso">
-                    <div class="miso-img-box">
-                        <img src="images/miso-pic.png" alt="">
-                    </div>
-                    <h4>秘製味噌醬</h4>
-                    <p>火熱販賣中</p>
-                    <div class="price-cart">
-                        <p>$500</p>
-                        <img src="images/price-cart-pic.png" alt="">
-                    </div>
-                </div>
-                <div class="port-box-necessary">
-                    <div class="circle-pic">
-                        <img src="images/circle-necessary-pic.png" alt="">
-                    </div>
-                    <h3>不容錯過</h3>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="background-fire">
-        <img src="images/background-fire.png" alt="">
-    </div>
+            <div class="port-box-necessary">
+                
+                <div class="product-necessary">
+                    <h4>不容錯過</h4>
+                    <div class="product-necessary-box">
+                        <div class="product-iced-soup">
+                            <div class="iced-soup-img-box">
+                                <img src="images/iced-soup-pic.png" alt="">
+                            </div>
+                            <span>冷凍豬骨湯</span>
+                            <p>限時販售</p>
+                            <div class="price-cart">
+                                <p>$500</p>
+                                <div class="count-box">
+                                    <button>-</button>
+                                    <input type="text" value="0">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-miso">
+                            <div class="miso-img-box">
+                                <img src="images/miso-pic.png" alt="">
+                            </div>
+                            <span>秘製味噌醬</span>
+                            <p>火熱販賣中</p>
+                            <div class="price-cart">
+                                <p>$500</p>
+                                <div class="count-box">
+                                    <button>-</button>
+                                    <input type="text" value="0">
+                                    <button>+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/necessary-pic.jpg" alt="">
+            </div>
+        </div>    
+    </section>
+
     <footer>
-        <div class="bottom">
+        <nav class="bottom">
             <a href="#" class="bottom-logo">
                 <div class="bottom-logo-img"><img src="images/logo-bottom.png" alt=""></div>
-                <div class="bottom-logo-name"><h1>菜流拉麵</h1></div>
+                <div class="bottom-logo-name">
+                    <h1>菜流拉麵</h1>
+                </div>
             </a>
-            <div class="bottom-community">
-                <a href="#" class="bottom-community-instragram"><img src="images/icon-instragram.png" alt=""></a>
-                <a href="#" class="bottom-community-youtube"><img src="images/icon-youtube.png" alt=""></a>
-                <a href="#" class="bottom-community-twitter"><img src="images/icon-twitter.png" alt=""></a>
-            </div>
             <div class="bottom-information">
-                <p>聯絡地址 | 台北市西區方向路123號之4<br>聯絡電話 | 0921345678<br>營業時間 | 除國定假日皆有營業</p>
+                <p>聯絡地址 | 台北市西區方向路<span>123</span>號之<span>45</span><br>聯絡電話 | <span>0921345678</span><br>營業時間 |
+                    除國定假日及公告公休日 平日皆有營業</p>
             </div>
             <div class="bottom-note">
-                <p>本網站為TibaMe前端工程師班展示用，僅供展示、學習使用</p>
+                <p>本網站為<span>TibaMe</span>前端工程師班展示用，僅供展示、學習使用</p>
             </div>
-        </div>
+        </nav>
     </footer>
 </body>
 </html>

@@ -1,180 +1,236 @@
-.banner-order-page{
+.banner-order{
     width: 100%;
-    height: auto;
-    margin-top: 116px;
-    position: relative;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
-.banner-order-page img{
+.order-txt{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.order-page-txt{
-    width: 100%;
-    position: absolute;
+.order-txt h2{
     text-align: center;
-    bottom: 0%;
-    margin: auto;
-    font-size: 60px;
-    letter-spacing: 18px;
-    font-family: 'Noto Serif',Serif;
     color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    letter-spacing: .3em;
 }
-.title-order-page{
-    margin: 67px 0px;
+.order-txt span{
+    font-family: 'Noto Sans', sans-serif;
 }
-.title-order-page h2{
-    width: 100%;
+.title-order{
+    font-size: 1.3em;
     text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-}
-.title-order-page h2::after{
-    content: 'Order Online';
-    font-family: 'Noto Serif', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    line-height: 15px;
-}
-.section-order-recommend, .section-order-necessary{
-    width: 100%;
+    margin: 4% 0 2% 0;
+    letter-spacing: .2em;
 }
 .port-box-recommend{
-    width: 400px;
-    height: 360px;
-    background-color: lightgreen;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-.port-box-necessary{
-    width: 400px;
-    height: 360px;
-    background-color: lightblue;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-.wrapper-recommend, .wrapper-necessary{
-    width: 940px;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 67px auto;
-    background-color: #f2f2f2;
-}
-.wrapper-necessary:nth-child(1){
-    order:3
-}
-.wrapper-necessary:nth-child(2){
-    order:2
-}
-.wrapper-necessary:nth-child(3){
-    order:1
-}
-.circle-pic{
-    position: absolute;
-    left: 40px;
-    top: 30px;
-}
-.circle-pic img{
-    width: 250px;
-}
-.port-box-recommend h3, .port-box-necessary h3{
     width: 100%;
-    position: absolute;
-    text-align: right;
-    bottom: 0%;
-    left: 0%;
-    font-size: 24px;
-    letter-spacing: 3.6px;
-    font-family: 'Noto Serif TC',Serif;
-    color: black;
-    font-weight: normal;
-}
-.product-lucky-bag, .product-T-shirt, .product-iced-soup, .product-miso{
-    width: 250px;
-    height: 360px;
+    margin: 7% auto;
     display: flex;
-    flex-direction: column;
-    background-color: lightgrey;
-    position: relative;
 }
-.lucky-bag-img-box, .T-shirt-img-box, .iced-soup-img-box, .miso-img-box{
-    width: 250px;
-    height: 220px;
+.port-box-recommend img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin: 0 3%;
+}
+.product-recommend{
+    flex-grow: 1;
+}
+.product-recommend-box{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 5% 0;
 }
-.product-lucky-bag > img, .product-T-shirt > img{
-    width: 100%;
-    height: auto;
-    align-items: center;
-    object-fit: cover;
+.product-recommend > h4{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: .2em;
+    color: #CF000D;
+    border-bottom: 3px solid #CF000D;
+    padding: 2% 0;
 }
-
-.product-lucky-bag h4, .product-T-shirt h4, .product-iced-soup h4, .product-miso h4{
-    width: 100%;
-    text-align: left;
-    bottom: 0%;
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    font-family: 'Noto Serif TC', Serif;
-    color: black;
-    font-weight: normal;
-    padding-left: 25px;
+.product-lucky-bag{
+    width: 40%;
+    background-color: rgb(147, 48, 253);
+    margin-top: 5%;
 }
-.product-lucky-bag > p, .product-iced-soup > p{
+.product-lucky-bag span{
+    font-size: 1.2em;
+    margin:3% 0 3% 3%;
+    color: white;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+}
+.product-lucky-bag > p{
+    margin:3% 0 3% 3%;
+    background-color: orange;
+    color: white;
     width: 60px;
-    height: 20px;
-    border: 1px solid #3b99f0;
     text-align: center;
-    bottom: 0%;
-    font-size: 12px;
-    letter-spacing: 1.8px;
-    font-family: 'Noto Serif TC', Serif;
-    color: #3b99f0;
-    font-weight: normal;
-    margin-left: 25px;
+    font-size: .5em;
 }
-.product-T-shirt > p, .product-miso > p{
-    width: 70px;
-    height: 20px;
-    border: 1px solid #ec7621;
-    text-align: center;
-    bottom: 0%;
-    font-size: 12px;
-    letter-spacing: 1.8px;
-    font-family: 'Noto Serif TC', Serif;
-    color: #ec7621;
-    font-weight: normal;
-    margin-left: 25px;
-}
-.price-cart {
-    position: absolute;
+.lucky-bag-img-box{
+    width: 100%;
     display: flex;
-    align-items: center;
-    bottom: 0;
-    right: 0;
-    gap: 125px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    flex-direction: column;
+}
+.lucky-bag-img-box img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.price-cart{
+    display: flex;
+    flex-direction: column;
+    margin:3% 0 3% 0;
+}
+.price-cart button{
+    width: 20px;
+}
+.price-cart input{
+    width: 60px;
+    text-align: center;
 }
 .price-cart p{
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    font-family: 'Noto Serif TC', Serif;
-    color: black;
-    font-weight: normal;
-    
+    margin:0 0 3% 3%;
+    color: white;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+}
+.count-box{
+    margin:0 auto 3% auto;
+}
+.product-T-shirt{
+    width: 40%;
+    background-color: rgb(147, 48, 253);
+    margin-top: 5%;
+}
+.product-T-shirt span{
+    font-size: 1.2em;
+    margin:3% 0 3% 3%;
+    color: white;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+}
+.product-T-shirt > p{
+    margin:3% 0 3% 3%;
+    background-color: #CF000D;
+    color: white;
+    width: 80px;
+    text-align: center;
+    font-size: .5em;
+}
+.T-shirt-img-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.T-shirt-img-box img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
 
+
+.port-box-necessary{
+    width: 100%;
+    margin: 7% auto;
+    display: flex;
 }
-.price-cart img{
-    width: 40px;
-    height: 40px;
+.port-box-necessary img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    margin: 0 3%;
 }
-.port-box-necessary h3{
-    text-align: left;
+.product-necessary{
+    flex-grow: 1;
+}
+.product-necessary-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
+.product-necessary > h4{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: .2em;
+    color: #CF000D;
+    border-bottom: 3px solid #CF000D;
+    padding: 2% 0;
+}
+.product-iced-soup{
+    width: 40%;
+    background-color: rgb(147, 48, 253);
+    margin-top: 5%;
+}
+.product-iced-soup span{
+    font-size: 1.2em;
+    margin:3% 0 3% 3%;
+    color: white;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+}
+.product-iced-soup > p{
+    margin:3% 0 3% 3%;
+    background-color: orange;
+    color: white;
+    width: 60px;
+    text-align: center;
+    font-size: .5em;
+}
+.iced-soup-img-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.iced-soup-img-box img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.product-miso{
+    width: 40%;
+    background-color: rgb(147, 48, 253);
+    margin-top: 5%;
+}
+.product-miso span{
+    font-size: 1.2em;
+    margin:3% 0 3% 3%;
+    color: white;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 1);
+}
+.product-miso > p{
+    margin:3% 0 3% 3%;
+    background-color: #CF000D;
+    color: white;
+    width: 80px;
+    text-align: center;
+    font-size: .5em;
+}
+.miso-img-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.miso-img-box img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+@media (max-width:767.9px){
+    .product-recommend h4, .product-necessary h4{
+        font-size: 1.5em;
+    }
+    .product-lucky-bag span, .product-T-shirt span, .product-iced-soup span, .product-miso span{
+        font-size: .7em;
+    }
+    .product-lucky-bag p, .product-T-shirt p, .product-iced-soup p, .product-miso p{
+        font-size: .7em;
+    }
 }
