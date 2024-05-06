@@ -1,72 +1,59 @@
-.section-menu-inside-page{
-    margin-top: 67px;
-}
-.banner-menu-inside-page{
+.banner-menu-page{
     width: 100%;
-    height: auto;
-    margin-top: 116px;
-    position: relative;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
-.banner-menu-inside-page img{
+.menu-page-txt{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.menu-inside-page-txt{
-    width: 100%;
-    position: absolute;
+.menu-page-txt h2{
     text-align: center;
-    bottom: 0%;
-    margin: auto;
-    font-size: 60px;
-    letter-spacing: 18px;
-    font-family: 'Noto Serif',Serif;
     color: white;
-}
-.title-menu-inside-page{
-    margin: 67px 0px;
-}
-.title-menu-inside-page h2{
-    width: 100%;
-    text-align: center;
-    font-family: 'Noto Serif TC', serif;
     font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    margin: 67px 0px;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    letter-spacing: .3em;
 }
-
+.menu-page-txt span{
+    font-family: 'Noto Sans', sans-serif;
+}
+.title-menu-inside-page h3{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 4% 0 2% 0;
+    letter-spacing: .2em;
+}
+.menu-inside-page-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
 .menu-inside-page-pic{
-    width: 750px;
+    width: 100%;
+    margin: 3% 0;
 }
 .menu-inside-page-pic img{
     width: 100%;
 }
 .menu-inside-page-content p{
-    width: 750px;
-    text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    margin: 67px 0px;
-    padding: 0px 10px;
+    margin: 3% 0;
+    padding: 0 2%;
 }
-.menu-inside-page-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.background-cloud:nth-child(1) {
-    margin-top: 40px;
-}
-.background-cloud:nth-child(2) {
-    margin-top: -60px;
-}
-span{
-    width: 750px;
+.menu-inside-page-content span{
+    margin: 3% 0;
     text-align: right;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    padding: 0px 10px;
+    padding: 0 2%;
+}
+@media (max-width:767.9px){
+    .title-menu-inside-page h3{
+        font-size: 1.2em;
+    }
 }

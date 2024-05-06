@@ -3,104 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>人才招募</title>
     <link rel="stylesheet" href="css/header_footer.css">
-    <link rel="stylesheet" href="css/background-img.css">
     <link rel="stylesheet" href="css/recruit.css">
+    <script src="js/header_footer.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <ul class="navbar-list">
-                <li class="navbar-logo">
-                    <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
-                </li>
-                <li class="navbar-about-us">
-                    <a href="about.html"><p>關於我們</p></a>
-                </li>
-                <li class="navbar-news">
-                    <a href="news.html"><p>最新消息</p></a>
-                </li>
-                <li class="navbar-menu">
-                    <a class="navbar-menu-wrapper" href="menu.html">
-                        <p>美味菜單</p>
-                        <div class="triangle"></div>
-                    </a>
-                    <ul class="navbar-menu-list">
-                        <li class="navbar-menu-ramen">
-                            <a href="#">美味拉麵</a>
-                        </li>
-                        <li class="navbar-menu-side-dishes">
-                            <a href="#">精緻小菜</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="navbar-recruit">
-                    <a href="#"><p>人才招募</p></a>
-                </li>
-                <li>
-                    <a href="order.html"><p>線上訂購</p></a>
-                </li>
-                <li class="login-img">
-                    <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
-                </li>
-                <li class="cart-img">
-                    <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
-                </li>
-            </ul>
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
+            </div>
+            <div class="navbar-icon" id="menu-icon">
+                <ul class="navbar-list" id="navbar-list-mobile">
+                    <li class="navbar-about-us">
+                        <a href="about.html">關於我們</a>
+                    </li>
+                    <li class="navbar-news">
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li class="navbar-menu">
+                        <a class="navbar-menu-wrappr" href="menu.html">美味菜單</a>
+                        <ul class="navbar-menu-list">
+                            <li class="navbar-menu-ramen">
+                                <a href="#">美味拉麵</a>
+                            </li>
+                            <li class="navbar-menu-side-dishes">
+                                <a href="#">精緻小菜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-recruit">
+                        <a href="recruit.html">人才招募</a>
+                    </li>
+                    <li>
+                        <a href="order.html">線上訂購</a>
+                    </li>
+                    <li class="login-img">
+                        <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
+                    </li>
+                    <li class="cart-img">
+                        <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     
-    <div class="banner-recruit-page">
-        <img src="images/menu-pic.png" alt="">
-        <div class="recruit-page-txt txt-text-shadow"><h2>Join Us</h2></div>
-    </div>
+    <section class="banner-recruit" style="background-image: url(images/banner-recruit-pic.png)">
+        <div class="recruit-txt txt-text-shadow">
+            <h2>人才招募<br><span>Recruit</span></h2>
+        </div>
+    </section>
 
-    <div class="wrapper-background-cloud">
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
-        </div>
-        <div class="background-cloud">
-            <img src="images/background-cloud.png" alt="">
-        </div>
-    </div>
-    <div class="section-recruit-page">
-        <div class="title-recruit-page">
-            <h2>人才招募<br></h2>
+    <section class="section-recruit">
+        <div class="title-recruit">
+            <h3>人才招募</h3>
         </div>
         <div class="recruit-page-content">
             <div class="section-benefits">
                 <div class="recruit-page-pic">
                     <img src="images/recruit-playground-pic.png" alt="">
                 </div>
-                <h3>員工福利</h3>
+                <h4>員工福利</h4>
                 <div class="benefits-list">
-                    <div class="benefits-list-left">
+                    <div class="benefits-list">
                         <ul>
                             <li class="benefits">
                                 <p>年薪至少14個月</p>
                             </li>
                             <li class="benefits">
+                                <p>年薪至少14個月</p>
+                            </li>
+                            <li class="benefits">
                                 <p>三節獎金一分不少</p>
+                            </li>
+                            <li class="benefits">
+                                <p>三節獎金一分不少</p>
+                            </li>
+                            <li class="benefits">
+                                <p>公司定期舉辦下午茶會</p>
                             </li>
                             <li class="benefits">
                                 <p>公司定期舉辦下午茶會</p>
                             </li>
                             <li class="benefits">
                                 <p>性別友善職場</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="benefits-list-right">
-                        <ul>
-                            <li class="benefits">
-                                <p>年薪至少14個月</p>
-                            </li>
-                            <li class="benefits">
-                                <p>三節獎金一分不少</p>
-                            </li>
-                            <li class="benefits">
-                                <p>公司定期舉辦下午茶會</p>
                             </li>
                             <li class="benefits">
                                 <p>性別友善職場</p>
@@ -116,9 +104,10 @@
                 <div class="recruit-page-pic">
                     <img src="images/recruit-businessman-pic.png" alt="">
                 </div>
-                <h3>強力招募</h3>
+                <h4>強力招募</h4>
                 <div class="vacancies-list">
                     <div class="vacancies-manager">
+                        <img src="images/vacancies-manager-pic.png" alt="">
                         <p>店長</p>
                         <div class="condition">
                             <ul>
@@ -132,6 +121,7 @@
                         </div>
                     </div>
                     <div class="vacancies-pre-manager">
+                        <img src="images/vacancies-pre-manager-pic.png" alt="">
                         <p>儲備幹部</p>
                         <div class="condition">
                             <ul>
@@ -147,29 +137,24 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="background-fire">
-        <img src="images/background-fire.png" alt="">
-    </div>
     <footer>
-        <div class="bottom">
+        <nav class="bottom">
             <a href="#" class="bottom-logo">
                 <div class="bottom-logo-img"><img src="images/logo-bottom.png" alt=""></div>
-                <div class="bottom-logo-name"><h1>菜流拉麵</h1></div>
+                <div class="bottom-logo-name">
+                    <h1>菜流拉麵</h1>
+                </div>
             </a>
-            <div class="bottom-community">
-                <a href="#" class="bottom-community-instragram"><img src="images/icon-instragram.png" alt=""></a>
-                <a href="#" class="bottom-community-youtube"><img src="images/icon-youtube.png" alt=""></a>
-                <a href="#" class="bottom-community-twitter"><img src="images/icon-twitter.png" alt=""></a>
-            </div>
             <div class="bottom-information">
-                <p>聯絡地址 | 台北市西區方向路123號之4<br>聯絡電話 | 0921345678<br>營業時間 | 除國定假日皆有營業</p>
+                <p>聯絡地址 | 台北市西區方向路<span>123</span>號之<span>45</span><br>聯絡電話 | <span>0921345678</span><br>營業時間 |
+                    除國定假日及公告公休日 平日皆有營業</p>
             </div>
             <div class="bottom-note">
-                <p>本網站為TibaMe前端工程師班展示用，僅供展示、學習使用</p>
+                <p>本網站為<span>TibaMe</span>前端工程師班展示用，僅供展示、學習使用</p>
             </div>
-        </div>
+        </nav>
     </footer>
 </body>
 </html>

@@ -206,5 +206,27 @@
     }
 }
 @media (min-width:768px) and (max-width:995px){
-
+    .special-ramen h3{
+        font-size: 1.2em;
+    }
+    .special-ramen p{
+        font-size: .7em;
+    }
+    .ramen-introduce h3{
+        font-size: 1.5em;
+        padding-top: 5%;
+    }
+    .ramen-introduce p{
+        padding-top: 5%;
+    }
+    .menu-link a{
+        font-size: .9em;
+        margin: auto 5%;
+    }
+    .ingredients-card h3{
+        font-size: .8em;
+    }
+    .ingredients-card p{
+        font-size: .6em;
+    }
 }

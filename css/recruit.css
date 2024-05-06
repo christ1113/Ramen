@@ -1,153 +1,152 @@
-.section-recruit-page{
-    margin-top: 67px;
-}
-.banner-recruit-page{
+.banner-recruit{
     width: 100%;
-    height: auto;
-    margin-top: 116px;
-    position: relative;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
 }
-.banner-recruit-page img{
+.recruit-txt{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.recruit-page-txt{
-    width: 100%;
-    position: absolute;
+.recruit-txt h2{
     text-align: center;
-    bottom: 0%;
-    margin: auto;
-    font-size: 60px;
-    letter-spacing: 18px;
-    font-family: 'Noto Serif',Serif;
     color: white;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    letter-spacing: .3em;
 }
-.title-recruit-page{
-    margin: 67px 0px;
+.recruit-txt span{
+    font-family: 'Noto Sans', sans-serif;
 }
-.title-recruit-page h2{
-    width: 100%;
+.title-recruit{
+    font-size: 1.3em;
     text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    margin: 67px 0px;
+    margin: 4% 0 2% 0;
+    letter-spacing: .2em;
 }
-.title-recruit-page h2::after{
-    content: 'Join Us';
-    font-family: 'Noto Serif', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    line-height: 15px;
+.section-recruit{
+    margin: auto;
 }
-.recruit-page-content h3{
-    width: 100%;
-    text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 40px;
-    letter-spacing: 12px;
-    margin: 67px 0px;
-}
-.recruit-page-pic{
-    width: 750px;
+.recruit-page-content{
+    width: 70%;
+    margin: auto;
 }
 .recruit-page-pic img{
     width: 100%;
+    margin: 3% 0;
 }
-.recruit-page-content p{
-    width: 300px;
+.section-benefits h4{
+    font-size: 1.5em;
     text-align: center;
-    font-family: 'Noto Serif TC', serif;
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 2.4px;
+    background-color: #CF000D;
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin: auto;
 }
 .benefits-list{
+    font-size: 1em;
     display: flex;
     justify-content: center;
+    margin: 2% auto;
+    letter-spacing: .2em;
+}
+.benefits-list ul{
+    display: flex;
+    flex-wrap: wrap;
 }
 .benefits-list li{
-    margin: 4px 0px;
+    list-style: none;
+    width: 50%;
 }
 .benefits-list p{
-    display: flex;
-    justify-content: center;
+    margin: 5%;
+    text-align: center;
 }
-.recruit-page-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section-vacancies li{
+    list-style: none;
 }
-.background-cloud:nth-child(1) {
-    margin-top: 40px;
-}
-.background-cloud:nth-child(2) {
-    margin-top: -60px;
-}
-.section-benefits{
-    margin-bottom: 67px;
+.section-vacancies h4{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #CF000D;
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin: auto;
 }
 .vacancies-list{
     display: flex;
     justify-content: center;
-    list-style: none;
 }
-.vacancies-list div{
-    width: 200px;
-    font-size: 24px;
-    letter-spacing: 3.6px;
-    font-family: 'Noto Serif TC',Serif;
-    background-color: black;
-    color: white;
-    box-sizing: border-box;
-    padding: 5px 0px;
-    margin: 0px 20px;
+.vacancies-manager{
+    width: 40%;
+    border: 2px solid black;
+    margin: 5% 10%;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
-.vacancies-list p{
+.vacancies-manager img{
     width: 100%;
-    text-align: center;
 }
-.vacancies-list {
-    margin: 20px;
+.vacancies-manager img:hover{
+    scale: 1.05;
+    transition: .5s;
 }
+.vacancies-manager p{
+    font-size: 1.2em;
+    padding: 2% 0 2% 1%;
+}
+.vacancies-manager li{
+    padding:2% 0 2% 3%;
+}
+.vacancies-pre-manager{
+    width: 40%;
+    border: 2px solid black;
+    margin: 5% 10%;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.vacancies-pre-manager img{
+    width: 100%;
+}
+.vacancies-pre-manager img:hover{
+    scale: 1.05;
+    transition: .5s;
+}
+.vacancies-pre-manager p{
+    font-size: 1.2em;
+    padding: 2% 0 2% 1%;
+}
+.vacancies-pre-manager li{
+    padding:2% 0 2% 3%;
+}
+@media (max-width:767.9px){
+    .benefits-list p{
+        font-size: .7em;
+    }
+    .vacancies-manager{
+        width: 100%;
+    }
+    .vacancies-pre-manager{
+        width: 100%;
+    }
+    .vacancies-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .vacancies-manager li{
+        font-size: .7em;
+    }
+    .vacancies-pre-manager li{
+        font-size: .7em;
+    }
+}
+@media (min-width:768px) and (max-width:995px){
 
-.vacancies-manager, .vacancies-pre-manager {
-    position: relative;
-    width: 200px;
-    padding: 10px;
-    background-color: #f0f0f0;
-    cursor: pointer;
-    box-sizing: border-box;
 }
-
-.condition {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: -20px;
-}
-
-.condition ul {
-    list-style-type: none;
-}
-
-.condition li {
-    font-size: 16px;
-    letter-spacing: 2.4px;
-    padding: 8px;
-    border-bottom: 1px solid #ccc;
-}
-
-.condition li:last-child {
-    border-bottom: none;
-}
-
-.vacancies-manager:hover .condition,
-.vacancies-pre-manager:hover .condition {
-    display: block;
-    background-color: orange;
-    color: black;
-}
-
