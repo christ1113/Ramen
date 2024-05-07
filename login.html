@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <script src="js/header_footer.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/navbar-logo.png" alt=""></a>
+            </div>
+            <div class="navbar-icon" id="menu-icon">
+                <ul class="navbar-list" id="navbar-list-mobile">
+                    <li class="navbar-about-us">
+                        <a href="about.html">關於我們</a>
+                    </li>
+                    <li class="navbar-news">
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li class="navbar-menu">
+                        <a class="navbar-menu-wrappr" href="menu.html">美味菜單</a>
+                        <ul class="navbar-menu-list">
+                            <li class="navbar-menu-ramen">
+                                <a href="#">美味拉麵</a>
+                            </li>
+                            <li class="navbar-menu-side-dishes">
+                                <a href="#">精緻小菜</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navbar-recruit">
+                        <a href="recruit.html">人才招募</a>
+                    </li>
+                    <li>
+                        <a href="order.html">線上訂購</a>
+                    </li>
+                    <li class="login-img">
+                        <a href="#"><img src="images/navbar-pic-member-login.png" alt=""></a>
+                    </li>
+                    <li class="cart-img">
+                        <a href="#"><img src="images/navbar-pic-cart.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="login-page">
+        <div class="login-page-img-box">
+            <img src="images/login-page-pic.png" alt="">
+        </div>
+        <table id="login-table">
+            <thead><td>會員登入</td></thead>
+            <tr>
+                <td>帳號：</td>
+                <td><input type="text" id="account-btn" placeholder="請輸入帳號"></td>
+            </tr>
+            <tr>
+                <td>密碼：</td>
+                <td><input type="password" id="psd-btn" placeholder="請輸入密碼"></td>
+            </tr>
+            <tfoot>
+                <td><button id="login-btn">登入</button></td>
+                <td><button id="reset-btn">重設</button></td>
+            </tfoot>
+        </table>
+        <div id="login-sucess">登入成功</div>
+    </div>
+
+<script>
+    let account = document.getElementById('account-btn');
+    let password = document.getElementById('psd-btn');
+    let login = document.getElementById('login-btn');
+    let reset = document.getElementById('reset-btn');
+    let loginTable = document.getElementById('login-table')
+    let loginSucess = document.getElementById('login-sucess')
+    let loginPage = document.getElementById('login-page');
+
+
+    function init(){
+        login.addEventListener('click', function(){//login
+            if(account.value === 'c123' && password.value === 'c123'){
+                loginTable.style = 'display: none;'
+                loginSucess.style = 'display: block;'
+
+                setTimeout(function() {//三秒後隱藏
+                    window.location.href = 'index.html';
+                }, 3000);
+            }
+            else{
+                account.value ='';
+                password.value ='';
+                alert('帳號或密碼錯誤')
+            }
+        }, false)
+        reset.addEventListener('click', function(){//reset
+            account.value ='';
+            password.value ='';
+        }, false)
+    }
+    window.addEventListener("load", init, false);
+</script>
+
+<footer>
+    <nav class="bottom">
+        <a href="#" class="bottom-logo">
+            <div class="bottom-logo-img"><img src="images/logo-bottom.png" alt=""></div>
+            <div class="bottom-logo-name">
+                <h1>菜流拉麵</h1>
+            </div>
+        </a>
+        <div class="bottom-information">
+            <p>聯絡地址 | 台北市西區方向路<span>123</span>號之<span>45</span><br>聯絡電話 | <span>0921345678</span><br>營業時間 |
+                除國定假日及公告公休日 平日皆有營業</p>
+        </div>
+        <div class="bottom-note">
+            <p>本網站為<span>TibaMe</span>前端工程師班展示用，僅供展示、學習使用</p>
+        </div>
+    </nav>
+</footer>
+
+</body>
+</html>

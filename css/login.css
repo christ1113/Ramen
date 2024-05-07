@@ -1,0 +1,38 @@
+#login-page{
+    width: 100%;
+    background-color: #FFD37D;
+    display: flex;
+    align-items: center;
+}
+.login-page-img-box{
+    width: 50%;
+    overflow: hidden;
+}
+.login-page-img-box img{
+    width: 100%;
+    margin-bottom: -10px;
+}
+#login-page table thead{
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    letter-spacing: .3em;
+}
+#login-page table{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    letter-spacing: .2em;
+    font-family: 'Noto Serif TC', serif;
+}
+#login-page table tr{
+    height: 60px;
+}
+#login-sucess{
+    display: none;
+    margin: auto;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+    font-family: 'Noto Serif TC', serif;
+}

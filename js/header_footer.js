@@ -1,3 +1,4 @@
+//漢堡
 function menu_icon_click(){
         let menu_icon = document.getElementById("menu-icon");
         let navbarList = document.getElementById("navbar-list-mobile");
@@ -24,3 +25,4 @@ function menu_icon_click(){
     }
 });
 }, false);
+//
