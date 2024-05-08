@@ -105,14 +105,16 @@
     width: 70%;
     margin: 5% auto 5% auto;
     text-align: center;
+    display: flex;
+
 }
 .menu-link a{
     width: 20%;
-    height: 30px;
-    margin: auto 6.3%;
+    margin: auto 6%;
     background-color: #CF000D;
-    display: inline-block;
-    font-size: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-decoration: none;
     color: white;
     border:1px solid #CF000D;

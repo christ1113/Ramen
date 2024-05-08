@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,10 @@
     <link rel="stylesheet" href="css/header_footer.css">
     <link rel="stylesheet" href="css/recruit.css">
     <script src="js/header_footer.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -49,7 +53,7 @@
             </div>
         </nav>
     </header>
-    
+
     <section class="banner-recruit" style="background-image: url(images/banner-recruit-pic.png)">
         <div class="recruit-txt txt-text-shadow">
             <h2>人才招募<br><span>Recruit</span></h2>
@@ -61,7 +65,7 @@
             <h3>人才招募</h3>
         </div>
         <div class="recruit-page-content">
-            <div class="section-benefits">
+            <div class="section-benefits" data-aos="zoom-in-up">
                 <div class="recruit-page-pic">
                     <img src="images/recruit-playground-pic.png" alt="">
                 </div>
@@ -99,7 +103,7 @@
             </div>
         </div>
 
-        <div class="section-vacancies">
+        <div class="section-vacancies" data-aos="zoom-in-up">
             <div class="recruit-page-content">
                 <div class="recruit-page-pic">
                     <img src="images/recruit-businessman-pic.png" alt="">
@@ -156,5 +160,11 @@
             </div>
         </nav>
     </footer>
+    <script>
+        AOS.init({
+            duration: 2000
+        });
+    </script>
 </body>
+
 </html>

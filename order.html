@@ -141,12 +141,22 @@
     </section>
 
     <script>
-        function init() {
-            document.addEventListener('click', function(e) {
+
+        function plusBtn(){
+            let plus_btn = document.querySelector('.plus-btn');
+
+            plus_btn.addEventListener('click', function(e) {
                 if (e.target.classList.contains('plus-btn')) {
                     let qty = e.target.previousElementSibling;
                     qty.value = parseInt(qty.value) + 1;
                 }
+            });
+        }
+
+        function minusBtn(){
+            let minus_btn = document.querySelector('.minus-btn');
+
+            minus_btn.addEventListener('click', function(e) {
                 if (e.target.classList.contains('minus-btn')) {
                     let qty = e.target.nextElementSibling;
                     if (parseInt(qty.value) >= 1) {
@@ -156,7 +166,12 @@
             });
         }
 
-        window.addEventListener('load', init, false)
+        function init_btn() {
+            plusBtn();
+            minusBtn();
+        }
+
+        window.addEventListener('load', init_btn, false)
     </script>
 
     <footer>

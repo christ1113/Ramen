@@ -82,7 +82,7 @@
     let loginPage = document.getElementById('login-page');
 
 
-    function init(){
+    function init_login(){
         login.addEventListener('click', function(){//login
             if(account.value === 'c123' && password.value === 'c123'){
                 loginTable.style = 'display: none;'
@@ -103,7 +103,7 @@
             password.value ='';
         }, false)
     }
-    window.addEventListener("load", init, false);
+    window.addEventListener("load", init_login, false);
 </script>
 
 <footer>
